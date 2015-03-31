@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TravelBehaviours</title>
+		<meta name="description" content="TravelBehaviours - how travel-distances take effect" />
+		<meta name="author" content="Julian Wohlleber" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<script type='text/javascript' src='js/jquery-2.1.3.js'></script>
+		<script type="text/javascript" src="js/tabletop1.3.4.js"></script>
+		<script type="text/javascript" src="js/p5.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="https://docs.google.com/forms/d/1c1C4VeYMhYuB85N2pcHSz9LSODnzceXqUcMo2GKArtI/viewform?c=0&w=1"><span>Back to the Travel Survey</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="https://interface.fh-potsdam.de/eingabe-ausgabe/crowdsourcing/"><span>Back to the other Surveys</span></a></span>
+			</div>
+			<header>
+				<h1>TravelBehaviours <span>How distances to work affect on travel behavours and human life </span></h1>
+
+			</header>
+
+			<section class="color-1">
+				<div id='jsCanvas'></div>
+			</section>
+			<header>
+					<input type="radio" id="sall" name="class" value="sall" checked>
+					<label for="sall">all travellers</label>
+					<input type="radio" id="sick" name="class" value="sick">
+					<label for="sall">ill travellers</label>
+					<input type="radio" id="healthy" name="class" value="healthy">
+					<label for="sall">healthy travellers</label>
+					<br><br>
+					<a>
+					In the Graph above you should be able to see the results of my survey.
+						Blue Circles illustrate public traffic and train, red bycicle, orange afoot and green car.
+						The radius is proportional to the distance people need to get to work
+					If you select the options above, you can see, which participients have been sick within 3 weeks before they attended the survey.
+						The Survey automatically syncs with the results of the survey, so if you want to see yourself in this Visualisation, simply click on "Back to the Travel Survey"
+					</a><br><br><br><br>
+					<img src="Splash_Julian.png" />
+				</header>
+		</div><!-- /container -->
+	</body>
+</html>
