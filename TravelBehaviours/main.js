@@ -137,6 +137,7 @@ function healthy() {
 }
 
 function draw(){
+  smooth();
   if(document.getElementById('sall').checked){sall();}
   if(document.getElementById('healthy').checked){healthy();}
   if(document.getElementById('sick').checked){sick();}
